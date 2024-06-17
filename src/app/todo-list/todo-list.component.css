@@ -1,0 +1,34 @@
+.todo-list {
+  max-width: 400px;
+  margin: auto;
+  padding: 20px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+.todo-list input[type="text"] {
+  width: calc(100% - 80px);
+  padding: 8px;
+  margin-right: 10px;
+}
+
+.todo-list button {
+  padding: 8px 12px;
+  background-color: #007bff;
+  color: white;
+  border: none;
+  cursor: pointer;
+}
+
+.todo-list button:hover {
+  background-color: #0056b3;
+}
+
+.todo-list ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+.todo-list li {
+  margin-bottom: 10px;
+}
